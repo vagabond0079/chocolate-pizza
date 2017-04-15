@@ -1,0 +1,166 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  /*border: 1px solid black;*/
+
+}
+.clear-fix{
+  clear:both;
+}
+html, body {
+  height: 100%;
+}
+body{
+  padding-top: 120px;
+  margin:0 auto;
+  width: 960px;
+}
+header{
+  position:fixed;
+  top: 0;
+  background-color: white;
+  z-index: 10;
+  width: 960px;
+  height: 120px;
+}
+#delicious{
+  color: rgb(51, 51, 51);
+  font-family: 'Yellowtail';
+  font-size: 2.4em;
+  height:auto;
+  margin-top: 7px;
+}
+#chocolate-pizza {
+  color: rgb(51, 51, 51);
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-weight: bolder;
+  font-size: 3em;
+  margin-top: 55px;
+}
+#logo-group{
+  display: inline-block;
+  float:left;
+  height:45%;
+}
+#logo-text{
+  float:right;
+  height: auto;
+}
+#logo-tag{
+  height:100%;
+  font-family: 'Pathway Gothic One', sans-serif;
+}
+#logo {
+  height:100%;
+  float:left;
+  margin-top: 20px;
+  margin-right: 15px;
+}
+#favicon{
+  float:right;
+  margin-top: 35px;
+}
+#pint-fav{
+  margin-right: 5px;
+}
+#print-info{
+  float:right;
+  margin-bottom: 10px;
+}
+#print-icon{
+  display: inline;
+}
+#print-text{
+  display: inline;
+}
+#pizza-image{
+  width:960px;
+}
+.instructions{
+  text-indent: 25px;
+  padding: 10px 10px;
+  opacity: .5;
+  font-family: georgia;
+}
+.subtitle{
+  font-family: "Pathway Gothic One", sans-serif;
+  opacity: .5;
+}
+.page-break{
+  width:960px;
+  height:20px;
+  background-image: url("img/linebreak.png"););
+  margin-top: 100px;
+}
+.bottom-page-break{
+  width:960px;
+  height:20px;
+  background-image: url("img/linebreak.png"););
+}
+#notepad {
+  height:100%;
+  list-style: none;
+  font-family: 'Patrick Hand', cursive;
+  font-size: 1.4em;
+  padding: 30px;
+  float:left;
+  margin-left: 40px;
+}
+#notepad-two{
+  height:100%;
+  list-style: none;
+  font-family: 'Patrick Hand', cursive;
+  font-size: 1.4em;
+  padding: 30px;
+  float:left;
+}
+#check-ingredients{
+  background-image: url("img/list-bg.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  height:305px;
+  margin: 30px 30px;
+}
+#about{
+  margin-top:20px;
+  margin-bottom: 70px;
+  width: auto;
+}
+#vanessa{
+  display: inline-block;
+  float:left;
+}
+#share-button{
+  display: inline-block;
+  background-color: #b9715b;
+  color:white;
+  float:right;
+  padding:15px 30px 15px 30px;
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-weight: lighter;
+
+}
+#about-van{
+  display: inline-block;
+  width: 640px;
+  margin-left: 20px;
+  font-family: Georgia;
+}
+#bio{
+  margin-top: 10px;
+}
+#footer-break{
+  border-top: 1px solid rgba(220,220,220,.5);
+}
+#small-logo{
+  margin-left:450px;
+  position: relative;
+  bottom:20px;
+}
+#copyright{
+  margin: 0 auto;
+  text-align: center;
+  font-family: georgia;
+  opacity: .5;
+  font-size: .9em;
