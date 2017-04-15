@@ -99,15 +99,68 @@ header{
   background-image: url("img/linebreak.png"););
 }
 #notepad {
-  background-image: url("img/list-bg.png");
-  background-repeat: no-repeat;
-  background-position: top;
   height:100%;
   list-style: none;
   font-family: 'Patrick Hand', cursive;
   font-size: 1.4em;
+  padding: 30px;
+  float:left;
+  margin-left: 40px;
+}
+#notepad-two{
+  height:100%;
+  list-style: none;
+  font-family: 'Patrick Hand', cursive;
+  font-size: 1.4em;
+  padding: 30px;
+  float:left;
 }
 #check-ingredients{
+  background-image: url("img/list-bg.png");
+  background-repeat: no-repeat;
+  background-position: top;
   height:305px;
   margin: 30px 30px;
 }
+#about{
+  margin-top:20px;
+  margin-bottom: 70px;
+  width: auto;
+}
+#vanessa{
+  display: inline-block;
+  float:left;
+}
+#share-button{
+  display: inline-block;
+  background-color: #b9715b;
+  color:white;
+  float:right;
+  padding:15px 30px 15px 30px;
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-weight: lighter;
+
+}
+#about-van{
+  display: inline-block;
+  width: 640px;
+  margin-left: 20px;
+  font-family: Georgia;
+}
+#bio{
+  margin-top: 10px;
+}
+#footer-break{
+  border-top: 1px solid rgba(220,220,220,.5);
+}
+#small-logo{
+  margin-left:450px;
+  position: relative;
+  bottom:20px;
+}
+#copyright{
+  margin: 0 auto;
+  text-align: center;
+  font-family: georgia;
+  opacity: .5;
+  font-size: .9em;
